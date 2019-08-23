@@ -1,0 +1,75 @@
+structure = [
+    [
+        {
+            "title": "Preciso de um...",
+            "type": "single",
+            "options": [
+                {
+                    "icon": "add",
+                    "title": "Novo projeto",
+                    "subtitle": "Comece um projeto do zero com as melhores tecnologias da atualidade."
+                }, {
+                    "icon": "build",
+                    "title": "Ajuste em projeto",
+                    "subtitle": "Conserte, melhore ou crie novas ferramentas em seu projeto."
+                }
+            ]
+        }
+    ], [
+        {
+            "title": "Meu projeto será para...",
+            "type": "multiple",
+            "options": [
+                {
+                    "icon": "web",
+                    "title": "Web",
+                    "subtitle": "Comece um projeto do zero com as melhores tecnologias da atualidade."
+                }, {
+                    "icon": "phone_iphone",
+                    "title": "iOS",
+                    "subtitle": "Conserte, melhore ou crie novas ferramentas em seu projeto."
+                }, {
+                    "icon": "phone_android",
+                    "title": "Android",
+                    "subtitle": "Conserte, melhore ou crie novas ferramentas em seu projeto."
+                }, {
+                    "icon": "desktop_windows",
+                    "title": "Desktop",
+                    "subtitle": "Conserte, melhore ou crie novas ferramentas em seu projeto."
+                }
+            ]
+        }, {
+            "title": "Eu já tenho um projeto...",
+            "type": "single",
+            "options": [
+                {
+                    "icon": "web",
+                    "title": "Web",
+                    "subtitle": "Comece um projeto do zero com as melhores tecnologias da atualidade."
+                }, {
+                    "icon": "phone_iphone",
+                    "title": "Mobile",
+                    "subtitle": "Conserte, melhore ou crie novas ferramentas em seu projeto."
+                }, {
+                    "icon": "desktop_windows",
+                    "title": "Desktop",
+                    "subtitle": "Conserte, melhore ou crie novas ferramentas em seu projeto."
+                }, {
+                    "icon": "palette",
+                    "title": "Multi-plataforma",
+                    "subtitle": "Conserte, melhore ou crie novas ferramentas em seu projeto."
+                }
+            ]
+        }
+    ], [
+        {
+            "title": "Meu projeto é um(a)...",
+            "type": "import",
+            "options": "nichos"
+        }, {
+            "title": "Meu projeto <span class='import-selected'>%</span> utiliza...",
+            "type": "import",
+            "options": "technologies"
+        }
+    ]
+]

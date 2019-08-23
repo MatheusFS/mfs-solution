@@ -1,0 +1,115 @@
+body{
+    padding: 2rem;
+    height: 100vh;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.logo{
+    font-family: 'Helvetica';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: #607d8b 0px 0px 10px;
+    text-align: center;
+}
+
+.logo i{
+    font-size: inherit;
+    margin: 0 1rem;
+    vertical-align: top;
+}
+
+.overlay{
+    position: absolute;
+    width: 70vw;
+    margin-left: calc(50% - 35vw - 2rem);
+    padding: 3rem;
+    background-color: #FFFFFF88;
+    border-radius: 5px;
+    transition: transform 2s;
+}
+
+.overlay .overlay-title{
+    margin: 0px 0px 2rem 0px;
+}
+
+.selector{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 15px 15px;
+    /* align-items: center; */
+}
+
+.selector > a.next{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateY(calc(100% + 1rem));
+}
+
+.selector > div{
+    cursor: pointer;
+    margin: 0;
+}
+
+.selector div.selected::after{
+    font-family: 'Material Icons';
+    content: "check";
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 26px;
+    height: 26px;
+    padding: 1px 0 0 5px;
+    border: 1px solid #CCC;
+    border-radius: 13px;
+    color: #CCC;
+    background-color: #225522;
+}
+
+.fadeOut{
+    transform: translateX(calc(-100% - 50% - 35vw - 2rem)) !important;
+}
+
+.text-helper{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: #AAA;
+    font-size: 18px;
+}
+
+.import{
+    grid-template-columns: 33% 33% 33% !important;
+}
+
+.import .card .card-content{
+    padding: 10px !important;
+}
+
+.import-selected{
+    font-weight: bold;
+}
+
+.dotsNav{
+    width: fit-content;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 4rem;
+}
+.dotsNav .dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #33333388;
+}
+
+.dot.active{
+    background-color: #66AAAAAA;
+}

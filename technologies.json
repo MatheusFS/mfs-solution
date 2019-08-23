@@ -1,0 +1,6 @@
+technologies = {
+    "Web": ["Laravel","Angular","React","Vue","Bootstrap","Materialize","jQuery","Symfony","Zend"],
+    "Mobile": ["Angular","React"],
+    "Desktop": [],
+    "Multi": ["Visual Studio"]
+}
